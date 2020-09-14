@@ -11,8 +11,8 @@ def my_collect(empty_array)
   else
       languages = empty_array.join(" ")
       capital_lang = languages.upcase
-      new_lang_array = capital_lang.split(" ").first
-      return new_lang_array
+      new_lang_array = capital_lang.split(" ")
+      return new_lang_array.first
     
   end
   
