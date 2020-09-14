@@ -12,7 +12,7 @@ def my_collect(empty_array)
       #languages = empty_array.join(" ")
       #capital_lang = languages.upcase
       #new_lang_array = capital_lang.split(" ")
-      empty_array.split(" ")
+      #empty_array.split(" ")
       return empty_array
     
   end
