@@ -9,10 +9,11 @@ def my_collect(empty_array)
   if empty_array.length == 0 
     return empty_array
   else
-      languages = empty_array
-      capital_lang = languages.upcase
-      new_lang_array = capital_lang.split(" ")
-      return new_lang_array
+      #languages = empty_array.join(" ")
+      #capital_lang = languages.upcase
+      #new_lang_array = capital_lang.split(" ")
+      empty_array.split(" ").first
+      return empty_array
     
   end
   
